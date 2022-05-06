@@ -9,6 +9,6 @@ Y'a deux requêtes qui permettent de charger ces fichiers :
 Toutes ces données de ces fichiers on les importera dans Hadoop (HDFS) en utilisaznt les commandes suivantes :
       * On les stockera dans le docker : docker cp sourceLocal namenode:destDocker
       * On ouvre le terminal du nameNode Hadoop, et on chargera ces données avec HDFS : hdfs dfs -put sourceDocker destHadoop
-      * Ouis on ouvre un noteBook PySpark dans le même cluster, et on fera tout le traitement de données 
+      * Ouis on ouvre un noteBook PySpark dans le même cluster, et on fera tout le traitement de données (fichier : Projet_DataLake_NOAA.ipynb)
       * On stockera le résultat dans un base données PostGreSQL 
       
