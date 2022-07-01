@@ -12,3 +12,6 @@ Toutes ces données de ces fichiers on les importera dans Hadoop (HDFS) en utili
       * Ouis on ouvre un noteBook PySpark dans le même cluster, et on fera tout le traitement de données (fichier : Projet_DataLake_NOAA.ipynb)
       * On stockera le résultat dans un base données PostGreSQL 
       
+
+
+Les captures d'écrans illustrent la réussite de l'envoie des données dans Kafka sous format Json.
